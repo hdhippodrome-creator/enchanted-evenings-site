@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Enchanted Evenings — New Orleans</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+    .backdrop { background: radial-gradient(80% 80% at 50% 20%, rgba(0,0,0,0.4), rgba(0,0,0,0.85)); }
+  </style>
+</head>
+<body class="bg-black text-zinc-100">
+  <!-- Nav -->
+  <nav class="fixed top-0 z-50 w-full bg-black/50 backdrop-blur border-b border-white/10">
+    <div class="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
+      <a href="#home" class="font-semibold tracking-wide">Enchanted Evenings</a>
+      <div class="hidden md:flex gap-6 text-sm">
+        <a href="#about" class="hover:opacity-80">About</a>
+        <a href="#shows" class="hover:opacity-80">Shows</a>
+        <a href="#gallery" class="hover:opacity-80">Gallery</a>
+        <a href="#visit" class="hover:opacity-80">Visit</a>
+        <a href="#contact" class="hover:opacity-80">Contact</a>
+      </div>
+      <a href="#contact" class="px-3 py-1.5 rounded bg-white text-black text-sm font-medium">Join the list</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="home" class="pt-24 pb-16 backdrop">
+    <div class="mx-auto max-w-6xl px-4 grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h1 class="text-4xl md:text-5xl font-semibold">Immersive Gothic Storytelling</h1>
+        <p class="mt-4 text-zinc-300">A monthly speakeasy of verse, ritual, and lore—inside New Orleans’ vampire‑themed bars.</p>
+        <div class="mt-6 flex gap-3">
+          <a href="#shows" class="px-4 py-2 bg-white text-black rounded">Upcoming Shows</a>
+          <a href="#gallery" class="px-4 py-2 border border-white/30 rounded">View Photos</a>
+        </div>
+      </div>
+      <div class="rounded-2xl overflow-hidden shadow-xl">
+        <img src="images/hero.jpg" alt="Hero" class="w-full h-full object-cover">
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-16 bg-zinc-900/50">
+    <div class="mx-auto max-w-6xl px-4 grid md:grid-cols-2 gap-8 items-center">
+      <div class="rounded-2xl overflow-hidden shadow-lg">
+        <img src="images/about.jpg" alt="About" class="w-full h-full object-cover">
+      </div>
+      <div>
+        <h2 class="text-3xl font-semibold">About the Experience</h2>
+        <p class="mt-3 text-zinc-300">Enchanted Evenings is an intimate, multi‑room journey inspired by the gothic spirit of the Crescent City. Guests are guided between short performances featuring seasoned storytellers and signature cocktails.</p>
+        <ul class="mt-4 grid md:grid-cols-2 gap-2 text-sm text-zinc-300">
+          <li>Approx. 90 minutes</li>
+          <li>Small group immersion</li>
+          <li>Themed cocktail menu</li>
+          <li>French Quarter venues</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Shows (placeholder copy) -->
+  <section id="shows" class="py-16">
+    <div class="mx-auto max-w-6xl px-4">
+      <h2 class="text-3xl font-semibold">Upcoming Shows</h2>
+      <div class="mt-6 grid md:grid-cols-2 gap-4">
+        <div class="rounded-2xl border border-white/10 p-5">
+          <div class="text-lg font-medium">Chapter III: Whispers & Wards</div>
+          <div class="text-sm text-zinc-300 mt-1">Oct • Vampire Empire (French Quarter)</div>
+          <a href="#" class="inline-block mt-4 px-4 py-2 bg-white text-black rounded">Get Tickets</a>
+        </div>
+        <div class="rounded-2xl border border-white/10 p-5">
+          <div class="text-lg font-medium">Chapter IV: The Doormen of Dusk</div>
+          <div class="text-sm text-zinc-300 mt-1">Nov • Potions Lounge (Upstairs at The Apothecary)</div>
+          <a href="#" class="inline-block mt-4 px-4 py-2 bg-white text-black rounded">Get Tickets</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="py-16 bg-zinc-900/50">
+    <div class="mx-auto max-w-6xl px-4">
+      <h2 class="text-3xl font-semibold">Gallery</h2>
+      <div class="mt-6 grid grid-cols-2 md:grid-cols-3 gap-3">
+        <div class="overflow-hidden rounded-xl border border-white/10"><img src="images/g1.jpg" class="w-full h-52 object-cover" alt=""/></div><div class="overflow-hidden rounded-xl border border-white/10"><img src="images/g2.jpg" class="w-full h-52 object-cover" alt=""/></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Visit -->
+  <section id="visit" class="py-16">
+    <div class="mx-auto max-w-6xl px-4 grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h2 class="text-3xl font-semibold">Visit Us</h2>
+        <p class="mt-3 text-zinc-300">Most shows are hosted in the French Quarter at Vampire Empire and Potions Lounge (upstairs at The Apothecary). Exact locations and arrival details are included in your ticket confirmation.</p>
+      </div>
+      <div class="rounded-2xl overflow-hidden border border-white/10">
+        <img src="images/venue.jpg" alt="Venue" class="w-full h-full object-cover">
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 bg-zinc-900/50">
+    <div class="mx-auto max-w-6xl px-4 grid md:grid-cols-2 gap-8">
+      <div>
+        <h2 class="text-3xl font-semibold">Get Updates</h2>
+        <p class="mt-3 text-zinc-300">Join our list for new dates, early tickets, and special pop‑ups.</p>
+        <form class="mt-6 grid gap-3 max-w-md" onsubmit="event.preventDefault(); alert('Thanks! This demo form is not wired yet.');">
+          <input class="px-3 py-2 rounded bg-zinc-800 border border-white/10" placeholder="Your name" required>
+          <input class="px-3 py-2 rounded bg-zinc-800 border border-white/10" placeholder="Email address" type="email" required>
+          <textarea class="px-3 py-2 rounded bg-zinc-800 border border-white/10" placeholder="Message (optional)"></textarea>
+          <button class="px-4 py-2 bg-white text-black rounded w-fit">Subscribe</button>
+        </form>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold">Press & Booking</h3>
+        <p class="mt-3 text-zinc-300">For press, collaborations, or private bookings, reach out below.</p>
+        <div class="mt-4 space-y-2 text-sm text-zinc-300">
+          <p>enchanted@yourdomain.com</p>
+          <p>@enchanted.evenings</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="border-t border-white/10 py-8 text-center text-sm text-zinc-400">
+    <div class="mx-auto max-w-6xl px-4">
+      <p>© 2025 Enchanted Evenings • New Orleans, LA</p>
+      <p class="mt-2">A Vampire Empire experience</p>
+    </div>
+  </footer>
+</body>
+</html>
